@@ -3,6 +3,8 @@ Chronic - Python Instrumentation
 
 Chronic is halfway between a simple timer and a profiler.  Add decorators or wrap code in with statements to get the execution time.  Chronic keeps track of the call hierarchy to tell you what timed blocks executed within other timed blocks.  Attach an event listener to log your timings however you want.
 
+If you are looking for the command line tool ``chronic`` which silences stdout and stderr unless a command fails, see the [moreutils](https://joeyh.name/code/moreutils/) package.
+
 ## Installation
 
 ```
